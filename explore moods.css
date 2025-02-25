@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header{
+    background-color: #f46303!important;
+    color: black;
+       
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    
+}
+body{
+    background-color: black;
+   
+}
+.card{
+    background:black;
+    width:50%;
+    margin: auto;background-color: transparent;
+    color: #f46303;
+    border-color: black;
+}
+.mee{
+    text-align: left;
+    font-size: 70px;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border-color: black;
+   text-align: center;
+   font-weight: bolder;
+   font: 500px;
+   
+
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color:#f46303;
+   
+}
+
+p{
+    padding-right: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font: bolder 10px;
+    color:#f46303;
+}
+.go{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-size: small;
+    background-color: gray;
+}
+.ynash{
+    text-decoration: none;
+    color: black;
+    padding: 100px;
+ font-weight: bolder;
+ margin-top: 10px;
+}
+span{
+    color: black;
+}
+/* a:hover{
+    background-color: black;
+    color: red;
+    
+} */
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    margin-top: 200px;
+}
+ .ynash:hover{
+    background-color: black;
+    color:#f46303;
+    transition:1S ease-in-out;
+    border-radius: 15px;
+    
+    
+}
+.btn :focus{
+    outline: none;
+}
+.srch :focus{
+    outline: none;
+}
+.btn{
+width: 100px;
+height: 50px;
+background: black;
+border: 2px solid black;
+color: #f46303;
+font-size: 15px;
+border-radius: 15px;
+
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    height: 30px;
+    background-color:transparent;
+    border: 2px solid black;
+    /* margin-top: 13px; */
+    color: black;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.moods{
+    background-image: url(/icons/images.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    color: white;
+    background-blend-mode: color solid gray;
+        animation-name: overcomer;
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+}
+.boom{
+    background-color: rgba(63, 62, 62, 0.377);
+    width: 90%;
+    height: 780px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 30px;
+   
+}
+@keyframes overcomer{
+    0%{background-image: url(/icons/images.jpeg);}
+    25%{background-image: url(/icons/download.jpeg);}  
+    50%{background-image: url(/icons/images\ \(1\).jpeg);}
+    100%{background-image: url(/icons/images\ bb.jpeg);}
+    150%{background-image: url(/icons/download\ \(1\).jpeg);}
+}
+.bread{
+    display: flex;
+}
+.bread img{
+    width: 99%;
+    height: 190px;
+    border-radius: 25px;
+    justify-content: space-around;
+    padding: 20px; 
+    
+}
+.bread :hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.div1{
+    border-radius: 15px;
+  padding-left: 20px;
+}
+h5{
+    color: white;
+}

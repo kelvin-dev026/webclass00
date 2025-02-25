@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header{
+    background-color: #f46303!important;
+    color: black;
+       
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    
+}
+body{
+    background-color: black;
+   
+}
+.card{
+    background:black;
+    width:50%;
+    margin: auto;background-color: transparent;
+    color: #f46303;
+    border-color: black;
+}
+.mee{
+    text-align: left;
+    font-size: 70px;
+   font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border-color: black;
+   text-align: center;
+   font-weight: bolder;
+   font: 500px;
+   
+
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: #f46303;
+   
+}
+
+p{
+    padding-right: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font: bolder 10px;
+    color:#f46303;
+}
+.go{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+    font-size: small;
+    background-color: gray;
+}
+.ynash{
+    text-decoration: none;
+    color: black;
+    padding: 100px;
+ font-weight: bolder;
+ margin-top: 10px;
+}
+span{
+    color: black;
+}
+/* a:hover{
+    background-color: black;
+    color: red;
+    
+} */
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    margin-top: 200px;
+}
+ .ynash:hover{
+    background-color: black;
+    color:#f46303;
+    transition:1S ease-in-out;
+    border-radius: 15px;
+    
+    
+}
+.btn :focus{
+    outline: none;
+}
+.srch :focus{
+    outline: none;
+}
+.btn{
+width: 100px;
+height: 50px;
+background: black;
+border: 2px solid black;
+color: #f46303;
+font-size: 15px;
+border-radius: 15px;
+
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    height: 30px;
+    background-color:transparent;
+    border: 2px solid black;
+    /* margin-top: 13px; */
+    color: black;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.playlist-section {
+    max-width: 700px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.playlist-item {
+    background: #1E1E1E;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.playlist-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.song-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.song-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+
+.song-info p {
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+audio {
+    width: 120px;
+}
+
+.playlist-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(255, 71, 87, 0.5);
+}
