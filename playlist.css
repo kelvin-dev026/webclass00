@@ -1,126 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+body {
+    background-color: #121212;
+    color: white;
+    padding-top: 60px; /* Prevent content from hiding behind navbar */
+    font-weight: bolder;
+}
 
-
-header{
-    background-color: #f46303!important;
-    color: black;
-       
+/* Navigation Bar */
+.navbar {
+    background: #f46303;
+    color: white;
     display: flex;
-    padding: 25px;
     justify-content: space-between;
-    text-decoration: none;
-    
-    
-}
-body{
-    background-color: black;
-   
-}
-.card{
-    background:black;
-    width:50%;
-    margin: auto;background-color: transparent;
-    color: #f46303;
-    border-color: black;
-}
-.mee{
-    text-align: left;
-    font-size: 70px;
-   font-style: italic;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   border-color: black;
-   text-align: center;
-   font-weight: bolder;
-   font: 500px;
-   
-
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background 0.3s;
 }
 
-
-.nav-link{
-    text-decoration: none;
-    color: #f46303;
-   
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-p{
-    padding-right: 55px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
-    font: bolder 10px;
-    color:#f46303;
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
-.go{
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    color: rgb(19, 19, 19);
-    font-size: small;
-    background-color: gray;
-}
-.ynash{
-    text-decoration: none;
-    color: black;
-    padding: 100px;
- font-weight: bolder;
- margin-top: 10px;
-}
-span{
-    color: black;
-}
-/* a:hover{
-    background-color: black;
-    color: red;
-    
-} */
-.menu a{
-    text-decoration: none;
-    color:black;
+    font-size: 1rem;
+    transition: color 1s;
     padding: 10px;
-    margin-top: 200px;
 }
- .ynash:hover{
+
+.nav-links a:hover {
+    color: #f46303;
     background-color: black;
-    color:#f46303;
-    transition:1S ease-in-out;
-    border-radius: 15px;
-    
-    
-}
-.btn :focus{
-    outline: none;
-}
-.srch :focus{
-    outline: none;
-}
-.btn{
-width: 100px;
-height: 50px;
-background: black;
-border: 2px solid black;
-color: #f46303;
-font-size: 15px;
-border-radius: 15px;
-
-}
-.srch{
-    font-family: 'Times New Roman', Times, serif;
-    width: 500px;
-    height: 30px;
-    background-color:transparent;
-    border: 2px solid black;
-    /* margin-top: 13px; */
-    color: black;
-    border-radius: 15px;
-    font-size: 16px;
-    padding: 10px;
-    margin-bottom: 10px;
-
+    border-radius: 9px;
 }
 
+/* Dummy Content */
+.content {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}wis
 body {
     background-color: #121212;
     color: white;
@@ -136,6 +77,8 @@ body {
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 .playlist-container {
@@ -181,5 +124,5 @@ audio {
 
 .playlist-item:hover {
     transform: translateY(-3px);
-    box-shadow: 0px 5px 15px rgba(255, 71, 87, 0.5);
+    box-shadow: 0px 5px 15px #f46303;
 }

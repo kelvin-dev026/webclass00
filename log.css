@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    padding-top: 60px; /* Prevent content from hiding behind navbar */
+    font-weight: bolder;
+}
+/* Navigation Bar */
+.navbar {
+    background: #f46303;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 1s;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    color: #f46303;
+    background-color: black;
+    border-radius: 5px;
+    border: 15px;
+}
+/* Dummy Content */
+.content {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Authentication Box */
+.auth-container {
+    background: #1E1E1E;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 15px #f46303;
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+button {
+    width: 100%;
+    background: #f46303;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #f46303;
+    color: black;
+}
+
+p {
+    margin-top: 10px;
+}
+
+p a {
+    color: #f46303;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+

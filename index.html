@@ -10,105 +10,133 @@
     <title>kelly music</title>
 </head>
 <body>
-    <header>
-      <div class="logo"><img src="/icons/solar--headphones-round-sound-linear.svg" alt="photo"  width="60px" style="margin-bottom: 10px;"></div>
-      
-      <div class="search">
-      <input class="srch" type="text" name="" placeholder="search">
-      <a href="http://"><button class="btn">search</button></a>
-      </div>
-      
-      <div class="menu">
-       
-          
-          
-<a class="ynash" href="http://127.0.0.1:5501/index.html" target="_blank">Home</a>
-<a class="ynash" href="http://127.0.0.1:5501/playlist.html" target="_blank">Playlist</a>
-<a class="ynash" href="http://127.0.0.1:5501/libary.html" target="_blank">Libary</a>
-<a class="ynash" href="http://127.0.0.1:5501/login.html" target="_blank">Login/Sign In</a>
-    
-</div>
-</header>
-
-<div class="card">
-    <div class="card-body">
-      <h1 class="mee"><b><i>Boom</i></b> <img src="/icons/solar--headphones-square-sound-broken (1).svg" alt="photo" width="60px"></h1>
-     </div>
-</div>
   
-     <div class="section">
-  <div class="sec-items" > 
-    <h4> Explore More
-     
-      <!-- <a href="http://"><img src="plus.png" alt="photo" width="55px"  ></a>
-      <a href="http://"><img src="minus.png" alt="photo" width="35px" ></a> -->
-    </h4>
-    <div class="image">
-    <a  href="http://"> <img src="Untitled.jpg" alt="photo"><br> <p id="fake">Imagine Dragons</p></a>
-    <a href="http://"><img src="ppup.webp" alt="photo"><br> <p id="fake">Central Cee</p></a>
-</div>
-<div class="bread">
-  <a href="http://"><img src="download (7).jpg" alt="photo" ><p id="fake">Dax</p></a>
-   <a href="http://"><img src="download (8).jpg" alt="photo" ><p id="fake">Nasty C</p></a>
-  </div>
-  <div class="lis">
-    <button class="Profilebt"><h6>Explore more</h6<a href="http://"></a></button> 
-  </div>
-  <!-- <div class="srach">
-    
-    <a href="http://"><button class="btn">Explore More on Boom</button></a>
-    </div> -->
-  </div>
-  <div class="sec-items" >
-    <h4>Moods</h4> 
-    <div class="bread">
-      <a href="http://"><img src="/moods/happy rep.jpeg" alt="photo" ><p id="fake">HAPPY</p></a>
-      <a href="http://"><img src="/moods/sad.jpg" alt="photo" ><p id="fake">SAD</p></a>
-    </div>
-    <div class="bread">
-      <a href="http://"><img src="/moods/party.jpg" alt="photo" ><p id="fake">PARTY</p></a>
-      <a href="http://"><img src="/moods/drills.jpg" alt="photo" ><p id="fake">DRILLS</p></a>
-    </div>
-    <div class="lis">
-      <a href="http://127.0.0.1:5501/explore%20moods.html"> <button class="Profilebt"><h6>Explore More</h6></button></a> 
-    </div>
-  </div>
-  <div class="sec-items" >  
-    <div class="finders">
-     <img id="account" src="/icons/mdi--account-circle.svg" alt="photo" width="55px" >
-     <div><h5>Profile</h5></div>
-    </div>  
-    <div class="list">
-      <a href="http://"><button class="Profilebtn"><h6>General Settings</h6></button></a>
-    </div>
-    <div class="list">
-      <a href="http://"><button class="Profilebtn"><h6>Edit User Info</h6></button></a>
-    </div>
-    <div class="list">
-      <a href="http://"><button class="Profilebtn"><h6>boom mods</h6></button></a>
-    </div>
-    <div class="list">
-      <a href="http://"><button class="Profilebtn"><h6>premuim</h6></button></a> 
-    </div>
-    <div class="list">
-      <a href="http://"><button class="Profilebtn"><h6>log out</h6></button></a>
-    </div>
-  </div>
-  </div>
 
-<div class="parent-container">
-  <div class="child">
-    <div class="playing">
-      <a href="http://"><img src="/download (4).jpg" alt="photo" width="90px"></a>
-     <a class="text" href="http://">alcohol Dax</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><img src="icons/mee.svg" alt="logo" width="40px"></div>
+        <ul class="nav-links">
+            <li><a href="http://127.0.0.1:5501/index.html"target="_blank">Home</a></li>
+            <li><a href="http://127.0.0.1:5501/libary.html"target="_blank">Library</a></li>
+            <li><a href="http://127.0.0.1:5501/playlist.html"target="_blank">Playlists</a></li>
+            <li><a href="http://127.0.0.1:5501/explore%20moods.html">Trending</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Dummy Content for Scroll Effect -->
+    <div class="content">
+        <h1>Welcome to B O O M</h1>
+          <!-- Hero Section -->
+    <header class="hero">
+        <h1>Discover, Stream & Enjoy</h1>
+        <p>Millions of songs. Unlimited music. Start your journey now.</p>
+        <a href="http://127.0.0.1:5501/explore%20moods.html" target="_blank" class="btn">Explore Now</a>
+    </header>
+
+    <!-- Featured Playlists -->
+    <section id="featured" class="featured">
+        <h2>🔥 Featured Playlists</h2>
+        <div class="playlist-container">
+            <div class="playlist-item">
+                <img src="moods/top hits.jpeg" alt="Playlist Cover">
+                <h3>Top Hits 2024</h3>
+            </div>
+            <div class="playlist-item">
+                <img src="moods/chill vibes.jpeg" alt="Playlist Cover">
+                <h3>Chill Vibes</h3>
+            </div>
+            <div class="playlist-item">
+                <img src="moods/rock.jpeg" alt="Playlist Cover">
+                <h3>Rock Legends</h3>
+            </div>
+        </div><br>
+        <div class="playlist-container">
+            <div class="playlist-item">
+                <img src="moods/gospel.jpeg" alt="Playlist Cover">
+                <h3>Gospel 2024</h3>
+            </div>
+            <div class="playlist-item">
+                <img src="moods/release.jpeg" alt="Playlist Cover">
+                <h3>Chill Vibes</h3>
+            </div>
+            <div class="playlist-item">
+                <img src="moods/drills.jpg" alt="Playlist Cover">
+                <h3>Rock Legends</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Songs -->
+    <section id="trending" class="trending">
+        <h2>📈 Trending Songs</h2>
+        <div class="song-container">
+            <div class="song-item">
+                <img src="kidi.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Lomo Lomo</h3>
+                    <p>KiDi_Ft_Black_Sherif</p>
+                </div>
+                <audio controls>
+                    <source src="audio/KiDi_Ft_Black_Sherif_-_Lomo_Lomo.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+
+            <div class="song-item">
+                <img src="download (5).jpg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Dear-Alcohol</h3>
+                    <p>Dax</p>
+                </div>
+                <audio controls>
+                    <source src="audio/Dax-Dear-Alcohol-(TrendyBeatz.com).mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            
+        </div><br>
+
+        <div class="song-container">
+            <div class="song-item">
+                <img src="joy.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Joy-Is-Coming</h3>
+                    <p>Fido</p>
+                </div>
+                <audio controls>
+                    <source src="audio/Fido-Joy-Is-Coming-(TrendyBeatz.com).mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+
+            <div class="song-item">
+                <img src="funds.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Funds</h3>
+                    <p>Davido-Ft-Odumodublvck-and-Chike</p>
+                </div>
+                <audio controls>
+                    <source src="audio/Davido-Ft-Odumodublvck-and-Chike-Funds-(TrendyBeatz.com).mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Are you logged or signed in</h2>
+        <p></p>
+        <a href="http://127.0.0.1:5501/login.html" class="btn">login/Sign In</a>
+    </section>
+
+</body>
+
     </div>
-  </div>
-  <div class="child2">
 
-  </div>
-  <div class="child"></div>
-</div>
-
-
+</body>
+</html>
 </body>
 </html>
