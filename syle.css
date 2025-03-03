@@ -6,10 +6,10 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #000000;
     color: white;
+    text-align: center;
     padding-top: 60px; /* Prevent content from hiding behind navbar */
-    font-weight: bolder;
 }
 
 /* Navigation Bar */
@@ -24,12 +24,12 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    transition: background 0.3s;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    display: flex;
 }
 
 .nav-links {
@@ -40,29 +40,23 @@ body {
 
 .nav-links li {
     display: inline;
+    font-weight: bolder;
 }
 
 .nav-links a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1rem;
-    transition: color 1s;
+    transition: color 0.3s;
     padding: 10px;
 }
 
 .nav-links a:hover {
     color: #f46303;
-    background-color: black;
+    background-color: #000000;
     border-radius: 9px;
+    padding: 15px;
 }
-
-/* Dummy Content */
-.content {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 1.2rem;
-}
-
 
 /* Hero Section */
 .hero {
@@ -86,7 +80,7 @@ body {
 }
 
 .btn {
-    background: black;
+    background: #000000;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -96,8 +90,9 @@ body {
 }
 
 .btn:hover {
-    background: black;
-    color:#f46303;
+    background: #f46303;
+    color: black;
+    
 }
 
 /* Featured Playlists */
@@ -164,7 +159,7 @@ h2 {
 }
 
 audio {
-    width: 120px;
+    width:360px;
 }
 
 /* Contact Section */
@@ -177,4 +172,70 @@ audio {
     .playlist-container {
         flex-direction: column;
     }
+}
+h1{
+    color: #f46303;
+    font-weight:bolder;
+}
+.playlist-contain{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+/* Trending Songs Section */
+.trending {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.song-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.song-item {
+    background: #1E1E1E;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.song-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.song-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+
+
+.play-btn {
+    background: #000000;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.play-btn:hover {
+    background:#f46303;
+}
+.writing{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+margin-left: 15px;
+    color: #000000;
+    margin-top: 10px;
 }
