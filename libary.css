@@ -136,4 +136,68 @@ audio {
     
 }
 
+/* Music Library */
+.music-library {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Music Items Grid */
+.library-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.music-item {
+    background: #1E1E1E;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.music-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.music-item h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.music-item p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 10px;
+}
+
+/* Hide Default Audio Player */
+audio {
+    display: none;
+}
+
+/* Play Button */
+.play-btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.play-btn:hover {
+    background:#f46303 ;
+}
+
 
