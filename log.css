@@ -46,7 +46,7 @@ body {
     text-decoration: none;
     font-size: 1rem;
     transition: color 1s;
-    padding: 10px;
+  
 }
 
 .nav-links a:hover {
@@ -54,6 +54,7 @@ body {
     background-color: black;
     border-radius: 5px;
     border: 15px;
+    padding: 15px;
 }
 /* Dummy Content */
 .content {
