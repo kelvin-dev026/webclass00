@@ -56,23 +56,4 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const playButtons = document.querySelectorAll(".play-btn");
 
-    playButtons.forEach((button) => {
-        button.addEventListener("click", function () {
-            const audio = this.previousElementSibling; // Get the corresponding audio element
-            
-            if (audio.paused) {
-                // Pause any other playing audio
-                document.querySelectorAll(".audio-player").forEach((a) => a.pause());
-
-                audio.play();
-                this.textContent = "⏸ Pause"; // Change button text
-            } else {
-                audio.pause();
-                this.textContent = "▶ Play"; // Reset button text
-            }
-        });
-    });
-});
