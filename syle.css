@@ -35,30 +35,30 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 16px;
+    
 }
 
 .nav-links li {
     display: inline;
     font-weight: bolder;
-    
 }
 
 .nav-links a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration: none; 
     font-size: 1rem;
-    transition: color 0.3s;
-  
+    padding: 10px 15px; 
+    display: inline-block; 
+    transition: color 0.3s, text-shadow 0.3s, text-decoration 0.3s;
 }
 
 .nav-links a:hover {
-    color: #f46303;
-    background-color: #000000;
-    border-radius: 9px;
-    padding: 15px;
-}
+    color: black;
+    text-decoration: underline 3px solid black ; 
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.767);
+    
 
+}
 /* Hero Section */
 .hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
@@ -76,8 +76,11 @@ body {
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: smaller;
     margin-bottom: 15px;
+    font-family: cursive;
+    font-weight: bolder;
+    
 }
 
 .btn {
@@ -225,7 +228,7 @@ h1{
     color: white;
     border: none;
     padding: 8px 15px;
-    cursor: pointer;
+    cursor: pointer; 
     border-radius: 5px;
     transition: background 0.3s;
 }
@@ -245,5 +248,6 @@ margin-left: 15px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-shadow:2px 2px 5px #f46303;
   }
   
