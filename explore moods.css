@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 1px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -68,10 +68,10 @@ body {
     background-image: url(/icons/images.jpeg);
     background-size: cover;
     background-position: center;
-    width: 90%;
+    width: 80%;
     height: 200px;
     margin-top: 50px;
-    margin-left: 25px;
+    margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 15px;
     color: white;
@@ -83,7 +83,7 @@ body {
 }
 .boom{
     background-color: rgba(63, 62, 62, 0.377);
-    width: 90%;
+    width: 70%;
     height: 780px;
     margin-top: 50px;
     margin-left: 25px;
@@ -95,11 +95,11 @@ h1{
    
 }
 @keyframes overcomer{
-    0%{background-image: url(/icons/images.jpeg);}
-    25%{background-image: url(/icons/download.jpeg);}  
-    50%{background-image: url(/icons/images\ \(1\).jpeg);}
-    100%{background-image: url(/icons/images\ bb.jpeg);}
-    150%{background-image: url(/icons/download\ \(1\).jpeg);}
+    0%{background-image: url(icons/images.jpeg);}
+    25%{background-image: url(icons/download.jpeg);}  
+    50%{background-image: url(icons/images\ \(1\).jpeg);}
+    100%{background-image: url(icons/images\ bb.jpeg);}
+    150%{background-image: url(icons/download\ \(1\).jpeg);}
 }
 
 
