@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="/android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/android-chrome-512x512.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-    <title>playlist</title>
+    <title>Playlist</title>
     <link rel="stylesheet" href="playlist.css">
-   
+</head>
 <body>
     
     <!-- Navigation Bar -->
@@ -18,73 +18,68 @@
         <div class="logo"><img src="BOOM_BOX-removebg-preview.png" alt="logo" width="50px"></div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-          
             <li><a href="playlist.html" target="_blank">Playlists</a></li>
-            <li><a href="libary.html" target="_blank">Libary</a></li>
-            <li><a href="login.html" target="blank">Sign Up</a></li>
+            <li><a href="libary.html" target="_blank">Library</a></li>
+            <li><a href="login.html" target="_blank">Sign Up</a></li>
         </ul>
     </nav>
-<!-- Trending Songs Section -->
-      <section class="playlist-section">
-          <h2>🔥 My Playlist</h2>
-          <div class="playlist-container">
-              
-              <div class="playlist-item">
-                  <img src="download shallipopi.jpeg" alt="Song Cover">
-                  <div class="song-info">
-                      <h3>Ex_Convict</h3>
-                      <p>Shallipopi</p>
-                  </div>
-                  <audio  controls>
-                      <source src="audio/Shallipopi_-_Ex_Convict.mp3" type="audio/mp3">
-                      Your browser does not support the audio tag.
-                  </audio>
-                  <button class="play-btn">▶ Play</button>
-              </div>
-  
-              <div class="playlist-item">
-                  <img src="nasty c.jpeg" alt="Song Cover">
-                  <div class="song-info">
-                      <h3>All_In</h3>
-                      <p>Nasty_C_ft_TI</p>
-                  </div>
-                  <audio controls>
-                      <source src="audio/Nasty_C_ft_TI_-_All_In.mp3" type="audio/mpeg">
-                      Your browser does not support the audio tag.
-                  </audio>
-                  <button class="play-btn">▶ Play</button>
-              </div>
-  
-              <div class="playlist-item">
-                  <img src="347idain.jpeg" alt="Song Cover">
-                  <div class="song-info">
-                      <h3>Memories</h3>
-                      <p>347aidan</p>
-                  </div>
-                  <audio controls>
-                      <source src="audio/347aidan-Memories-(TrendyBeatz.com).mp3" type="audio/mpeg">
-                      Your browser does not support the audio tag.
-                  </audio>
-                  <button class="play-btn">▶ Play</button>
-              </div>
-  
-              <div class="playlist-item">
-                  <img src="drip.jpeg" alt="Song Cover">
-                  <div class="song-info">
-                      <h3>Pxy-Drip</h3>
-                      <p>Naira-Marley</p>
-                  </div>
-                  <audio controls>
-                      <source src="audio/Naira-Marley-Pxy-Drip-(TrendyBeatz.com).mp3" type="audio/mpeg">
-                      Your browser does not support the audio tag.
-                  </audio>
-                  <button class="play-btn">▶ Play</button>
-              </div>
-  <br>
-        
-  
 
-  </div>
-  <script src="script.js"></script>
+    <!-- Playlist Section -->
+    <section class="playlist-section">
+        <h2>🔥 My Playlist</h2>
+        <div class="playlist-container">
+            
+            <div class="playlist-item">
+                <img src="download shallipopi.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Ex Convict</h3>
+                    <p>Shallipopi</p>
+                </div>
+                <audio class="audio-player">
+                    <source src="audio/Shallipopi_-_Ex_Convict.mp3" type="audio/mpeg">
+                </audio>
+                <button class="play-btn">▶ Play</button>
+            </div>
+
+            <div class="playlist-item">
+                <img src="nasty c.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>All In</h3>
+                    <p>Nasty C ft. TI</p>
+                </div>
+                <audio class="audio-player">
+                    <source src="audio/Nasty_C_ft_TI_-_All_In.mp3" type="audio/mpeg">
+                </audio>
+                <button class="play-btn">▶ Play</button>
+            </div>
+
+            <div class="playlist-item">
+                <img src="347idain.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Memories</h3>
+                    <p>347aidan</p>
+                </div>
+                <audio class="audio-player">
+                    <source src="audio/347aidan-Memories-(TrendyBeatz.com).mp3" type="audio/mpeg">
+                </audio>
+                <button class="play-btn">▶ Play</button>
+            </div>
+
+            <div class="playlist-item">
+                <img src="drip.jpeg" alt="Song Cover">
+                <div class="song-info">
+                    <h3>Pxy Drip</h3>
+                    <p>Naira Marley</p>
+                </div>
+                <audio class="audio-player">
+                    <source src="audio/Naira-Marley-Pxy-Drip-(TrendyBeatz.com).mp3" type="audio/mpeg">
+                </audio>
+                <button class="play-btn">▶ Play</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
