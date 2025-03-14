@@ -1,18 +1,18 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const text = "Welcome to 𝔹𝕆𝕆𝕄";
-    let index = 0;
-    const speed = 100; // Typing speed in milliseconds
+// document.addEventListener("DOMContentLoaded", function () {
+//     const text = "Welcome to 𝔹𝕆𝕆𝕄";
+//     let index = 0;
+//     const speed = 100; // Typing speed in milliseconds
 
-    function typeText() {
-        if (index < text.length) {
-            document.getElementById("typing-text").innerHTML += text.charAt(index);
-            index++;
-            setTimeout(typeText, speed);
-        }
-    }
+//     function typeText() {
+//         if (index < text.length) {
+//             document.getElementById("typing-text").innerHTML += text.charAt(index);
+//             index++;
+//             setTimeout(typeText, speed);
+//         }
+//     }
 
-    typeText();
-});
+//     typeText();
+// });
 
 
 
